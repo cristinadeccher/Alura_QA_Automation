@@ -1,0 +1,20 @@
+
+1o Iniciar o diretório do projeto
+git init
+
+2o Verifica o status dos arquivos nos diretório do projeto
+git status
+
+3o Verifica a situação
+git log
+
+4o  Parâmetros da configuração do diretório
+git config --list
+
+5o Verificar commit\alterações dos arquivos
+git log -p
+
+6o Consolidar alterações e consultar
+git commit - "Inserir msg"
+
+git log --oneline ou git log -p

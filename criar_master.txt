@@ -1,0 +1,34 @@
+1o criar servidor remoto
+mkdir servidor
+
+2o acessar servidor
+cd servidor
+
+3o iniciar o servidor para armazenar as alterações (master) porém sem os arquivos para ser usado como servidor - a pasta oficial do projeto
+git init --bare
+
+4o Voltar para sua pasta 
+cd ..tina
+
+5o Identificar o servidor apartir da sua pasta 
+Como este servidor será um repositório do Git que somente armazenará as alterações
+
+git remote add local "C:/Users/ALURA/Documents/git-e-github/servidor"
+
+git remote -v
+
+6o Empurrar as alterações para o local - branch para a master
+git push local master
+
+7o Trazer as alterações\artefatos para local
+git pull local master
+
+8o Copiar os arquivos do diretório
+git clone
+
+
+
+
+
+
+
